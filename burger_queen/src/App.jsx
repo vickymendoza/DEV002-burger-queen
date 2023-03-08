@@ -1,6 +1,7 @@
 
 import LandingPage from './components/LandingPage'
 import Logo from './components/Logo'
+//import Login_App from './components/Login_App'
 import './index.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Logo />
       <LandingPage />
+
     </div>
   )
 }
