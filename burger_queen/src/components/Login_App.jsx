@@ -1,24 +1,24 @@
-import PropTypes from 'prop-types';
-
-const getSaludo = (a, b) => {
-    return a + b;
-}
+import { Link } from 'react-router-dom';
+import Logo from './Logo'
+import { useState } from "react";
 
 
-const Login = () => {
+
+const Login = (props) => {
+    console.log(props);
+
     return (
-        <>
-            <input type="email" className='Email-login-form-input" placeholder="yomellamo@laramada.com' required />
-            <input type="password" className='password-email-login-form-input"' placeholder="******" required />
-        </>
+        <div>
+            <Logo></Logo>
+            <input className='Email-login-form-input' placeholder="yomellamo@laramada.com" required />
+            <input className='password-email-login-form-input' placeholder="******" required />
+            <Link to="/waiter" className='login-btn'> INICIAR SESION</Link>
+        </div>
     );
-
 }
+
 export default Login
 
-FirstApp.propTypes = {
-
-}
 
 
 
