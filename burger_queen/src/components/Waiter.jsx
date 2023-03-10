@@ -5,7 +5,9 @@ function Waiter() {
 
     return (
         <div>
-            <h1>Hola Mesero</h1>
+            <Logo></Logo>
+            <h2>Hola Mesero</h2>
+
         </div>
 
 
