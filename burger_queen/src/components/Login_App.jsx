@@ -4,15 +4,17 @@ import { useState } from "react";
 
 
 
-const Login = (props) => {
-    console.log(props);
 
+const Login = (props) => {
+    const [] = useState(0)
     return (
         <div>
             <Logo></Logo>
-            <input className='Email-login-form-input' placeholder="yomellamo@laramada.com" required />
-            <input className='password-email-login-form-input' placeholder="******" required />
-            <Link to="/waiter" className='login-btn'> INICIAR SESION</Link>
+            <form>
+                <input className='Email-login-form-input' placeholder="yomellamo@laramada.com" required />
+                <input className='password-email-login-form-input' placeholder="******" required />
+                <Link to="/orderview" className='login-btn'> INICIAR SESION</Link>
+            </form>
         </div>
     );
 }
