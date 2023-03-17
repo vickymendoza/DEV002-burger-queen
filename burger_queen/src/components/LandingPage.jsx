@@ -7,7 +7,7 @@ function LandingPage() {
         <div className="landing-page">
             <div className="Inicio-sesión">
                 <Logo></Logo>
-                <Link to="/login" className="login-btn-uno">INICIAR SESION</Link>
+                <Link to="/login" className="login-btn-uno">Iniciar Sesión</Link>
             </div>
 
             <div className="recuperar-contraseña">

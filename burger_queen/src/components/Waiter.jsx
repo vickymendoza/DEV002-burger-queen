@@ -22,12 +22,12 @@ function Waiter() {
         { id: 2, name: 'Marranitas', price: 12000 },
         { id: 3, name: 'Empanadas', price: 2500 },
         { id: 4, name: 'Arroz atollado', price: 23000 },
-        { id: 4, name: 'Tamal valluno', price: 15000 },
-        { id: 4, name: 'Papa aborrajada', price: 5000 },
-        { id: 4, name: 'Champús', price: 7000 },
-        { id: 4, name: 'Gaseosa', price: 7000 },
-        { id: 4, name: 'Salpicón', price: 7000 },
-        { id: 4, name: 'Lulada', price: 7000 },
+        { id: 5, name: 'Tamal valluno', price: 15000 },
+        { id: 6, name: 'Papa aborrajada', price: 5000 },
+        { id: 7, name: 'Champús', price: 7000 },
+        { id: 8, name: 'Gaseosa', price: 7000 },
+        { id: 9, name: 'Salpicón', price: 7000 },
+        { id: 10, name: 'Lulada', price: 7000 },
 
     ];
     return (
@@ -59,6 +59,8 @@ function Waiter() {
                     )}
                 />
                 <p>Total: ${total}</p>
+
+                <Button onClick={() => (item)}>Enviar a cocina</Button>
             </div>
         </div>
     );

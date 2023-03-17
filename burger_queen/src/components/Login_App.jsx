@@ -1,12 +1,23 @@
 import { Link } from 'react-router-dom';
 import Logo from './Logo'
-import { useState } from "react";
+//import { useState } from "react";
+// import { firebaseAuth, signInWithEmailAndPassword } from '..auth/firebase.js';
 
+// export const signInAccount = async (email, password) => {
+//     try {
+//         const userCredential = await signInWithEmailAndPassword(firebaseAuth, email, password)
+//         const user = userCredential.user;
+//         return Promise.resolve(userCredential)
+//     } catch (error) {
+//         return Promise.reject(error)
+//     }
+// }
+// export { signInWithEmailAndPassword, firebaseAuth }
 
 
 
 const Login = (props) => {
-    const [] = useState(0)
+
     return (
         <div>
             <Logo></Logo>

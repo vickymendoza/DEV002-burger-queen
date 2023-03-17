@@ -27,21 +27,21 @@ body {
 /*Landing Page*/
 .login-btn-uno {
 
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 30px;
-  left: 130px;
-  top: 200px;
-  margin-top: 100px;
+  left: 170px;
+  top: 100px;
+  margin-top: 200px;
   padding-top: 10px;
 
   background: #FFD2B7;
-  border-radius: 40px;
+  border-radius: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: #483232;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .email-login-forget-psw {
@@ -52,36 +52,26 @@ body {
   top: 200px;
   margin-top: 150px;
   padding-top: 10px;
-  text-align: center;
+
 }
 
-/* .login-btn-dos {
+.login-btn-dos {
   position: absolute;
   width: 200px;
   height: 30px;
-  left: 200px;
-  top: 200px;
+  left: 170px;
+  top: 100px;
   margin-top: 200px;
-  padding-top: 10px;
-
-  position: absolute;
-  width: 200px;
-  height: 30px;
-  left: 100px;
-  top: 200px;
-  margin-top: 300px;
   padding-top: 10px;
 
   background: #FFD2B7;
   border-radius: 30px;
-  font-family: Arial,
-    Helvetica,
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #483232;
   text-decoration: none;
   text-align: center;
   margin-bottom: 2%;
-} */
+}
 
 /* OrderView*/
 .new-order {
